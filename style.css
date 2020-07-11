@@ -1,0 +1,54 @@
+footer {
+  background-color: rgb(164, 222, 240);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(164, 222, 240);
+}
+
+a {
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.navbar-brand {
+  font-size: 50px;
+}
+
+.container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: lightseagreen;
+}
+
+.btn {
+  background-color: rgb(212, 164, 240);
+  color: white;
+}
+
+.card {
+  margin: 10px;
+}
+
+h5 {
+  color: white;
+  border-style: solid;
+  margin: 5px;
+  padding: 5px;
+  border-color: white;
+  background-color: rgb(212, 164, 240);
+}
+
+p {
+  color: white;
+  background-color: rgb(212, 164, 240);
+  padding: 10px;
+}
