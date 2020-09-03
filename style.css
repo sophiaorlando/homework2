@@ -1,4 +1,10 @@
-footer {
+
+span:after {
+  content: ' \2730';
+}
+
+
+/* footer {
   background-color: rgb(164, 222, 240);
   position: fixed;
   left: 0;
@@ -51,4 +57,4 @@ p {
   color: white;
   background-color: rgb(212, 164, 240);
   padding: 10px;
-}
+} */
