@@ -1,66 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
-  </head>
-  
-  <body>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Sophia Orlando</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-          </li>
-      </ul>
-  </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Contact</h1>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <button class="btmBtn">
+    <a class="navbar-brand btm" href="index.html">Back to me!</a>
+  </button>
+  <div class="container contact text-center">
+    <form>
+      <h1>Contact</h1>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">Don't worry, your email is safe with me :).</small>
         </div>
-        <div class="row">
-            <div class="col-5">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message me!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                    <button type="submit" class="btn">Submit</button>
-                  </form>
-            </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message me!</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-    </div>
-    <footer>
-      <h3>Copyright</h3>
-    </footer>
- </body>
+        <button type="submit" class="btn contactSubmitBtn">Submit</button>
+    </form>
+  </div>
+  </div>
+
+  <footer>
+    <h3>Find Me!</h3>
+    <a class="btn btn-dark" href="https://github.com/sophiaorlando" target="_blank" role="button">
+      <input type="image" src="./assets/gitlogo.png" style="width:40px;height:40px;" /></a>
+    <a class="btn btn-dark" href="contact.html" target="_blank" role="button">
+      <input type="image" src="./assets/emailIcon.png" style="width:40px;height:40px;" /></a>
+  </footer>
+
+</body>
+
+</html>
