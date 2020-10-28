@@ -1,0 +1,278 @@
+
+span:after {
+  content: ' \2730';
+}
+body{
+  background-color: black;
+  background-image: url(assets/stargif.gif);
+
+  
+}
+
+.main{
+  background-color: black;
+  padding:150px;
+}
+
+.jumbotron{
+  background-color:black;
+  color: yellow;
+  padding-bottom:180px;
+  margin-top:0px;
+}
+
+.gfont{
+  /* font-family: PressStart2P; */
+  font-family: 'Press Start 2P', cursive;
+  /* font-size:20px; */
+
+}
+
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 225, 255), 0 0 40px rgb(0, 225, 255), 0 0 50px rgb(0, 225, 255), 0 0 60px rgb(0, 225, 255), 0 0 70px rgb(0, 225, 255);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 0, 234), 0 0 40px rgb(255, 0, 234), 0 0 50px rgb(255, 0, 234), 0 0 60px rgb(255, 0, 234), 0 0 70px rgb(255, 0, 234), 0 0 80px rgb(255, 0, 234);
+  }
+
+}
+
+#stargif{
+  background-image: url(assets/stargif.gif);
+  height:200px;
+  background-repeat: repeat;
+  max-width: 100%;
+
+}
+
+
+.para {
+  color: #FFFF82;
+}
+
+/* Set the font, lean the board, position it */
+#board {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  transform: perspective(300px) rotateX(25deg);
+  transform-origin: 50% 100%;
+  text-align: justify;
+  /* position: absolute; */
+  margin-top:-40em;
+  margin-left:5em;
+  /* margin:5px; */
+  /* margin-left: ; */
+  /* margin-top:50px; */
+  background-color:black;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 300%;
+  height: 50em;
+  width: 18em;
+  bottom: 0;
+  left: 50%;
+}
+
+#board:after {
+  position: absolute;
+  content: ' ';
+  bottom: 60%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* Set the scrolling animation and position it */
+#content {
+  animation: scroll 100s linear 16s;
+  position: absolute;
+  top: 100%;
+  margin:2px;
+}
+
+#title, #subtitle {
+  text-align: center;
+}
+
+@keyframes scroll {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -170%;
+    }
+}
+
+.intro{
+  /* background-color:#0ef735; */
+  color:yellow;
+  margin:30px;
+}
+#star{
+  font-size:9000%;
+  color:blue;
+  width: 100%;
+  height: auto;
+  /* position: absolute; */
+  margin:10px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+/* #over{
+
+    position: absolute;
+    /* left: 40px; */
+    /* top: 10px; */
+    /* z-index: -1; */
+*/
+.lead{
+  padding-left:200px;
+  padding-right:200px;
+
+}
+
+.btn{
+  background-color: #ef0ef7;
+  color:black;
+  border-color:black;
+  border-radius: 15px;;
+}
+.btn:hover{
+  background-color: black;
+  color:#ef0ef7;
+  border-color:black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px white;
+}
+.headers{
+  padding-top:40px;
+  padding-bottom:30px;
+}
+.skillsHead{
+  color:black
+}
+
+.skills{
+  background-color:white;
+border-width:5px;
+border-color:black;
+border-style:ridge;
+border-radius:15px;
+padding-bottom:40px;
+margin-top:20px;
+
+
+
+}
+.list-group-item{
+font-weight: bold;
+color:#ef0ef7
+
+}
+.projects{
+  background-color:black;
+  margin:10px 70px 70px 70px;
+  padding:5px;
+  border-width:5px;
+border-color:#ef0ef7;
+border-style:ridge;
+border-radius:15px;
+padding-bottom:40px;
+  
+}
+.projHead{
+  color:#ef0ef7
+}
+
+.card{
+  margin-left:10px;
+}
+.small{
+  color:#ef0ef7
+}
+footer{
+  border-color:black;
+border-style:ridge;
+border-radius:15px;
+padding:20px;
+text-align:center;
+}
+
+/* CONTACT PAGE CSS */
+nav{
+  background-color:black;
+  border-color:#ef0ef7;
+  border-style:ridge;
+  border-radius:10px;
+
+}
+.btmBtn{
+  background-color:black;
+  border-color:#ef0ef7;
+  border-style:ridge;
+  border-radius:10px;
+  margin-top:20px;
+  margin-left:44%;
+}
+.btmBtn:hover{
+  background-color: white;
+  border-color:black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px #ef0ef7;
+
+}
+.btm{
+  padding:15px;
+  text-align: center;
+  color:white;
+}
+.btm:hover{
+  padding:15px;
+  text-align: center;
+  color:#ef0ef7;
+
+}
+.navButt{
+  color:white;
+  padding:30px;
+}
+.navButt:hover{
+  color:white;
+  padding:30px;
+  font-weight: 800;
+}
+
+input{
+  color:#ef0ef7;
+}
+
+form{
+  background-color:black;
+  color:white;
+  padding:40px;
+  margin:40px;
+  border-color:black;
+  border-style:ridge;
+  border-radius:30px;
+  box-shadow: 10px 10px 100px #ef0ef7;
+}
+label{
+  padding:15px;
+
+}
+.contactSubmitBtn:hover{
+  background-color: white;
+  color:#ef0ef7;
+  border-color:black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px #ef0ef7;
+}
