@@ -141,30 +141,34 @@ body{
 }
 
 .btn{
-  background-color: #ef0ef7;
-  color:black;
+  background-color: #0e1ef7;
+  color:#c5f70e;
   border-color:black;
   border-radius: 15px;;
 }
 .btn:hover{
-  background-color: black;
-  color:#ef0ef7;
+  background-color: #0e1ef7;
+  color:#c5f70e;;
   border-color:black;
   border-radius: 15px;
-  box-shadow: 10px 10px 8px white;
+  box-shadow: 10px 10px 8px #c5f70e;;
 }
 .headers{
   padding-top:40px;
   padding-bottom:30px;
+font-family: 'Press Start 2P', cursive;
+
 }
 .skillsHead{
-  color:black
+  color:rgb(6, 243, 17);
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 .skills{
-  background-color:white;
+  background-color:black;
 border-width:5px;
-border-color:black;
+border-color:rgb(33, 241, 5);
 border-style:ridge;
 border-radius:15px;
 padding-bottom:40px;
@@ -173,31 +177,77 @@ margin-top:20px;
 
 
 }
-.list-group-item{
+.list-group-item, button{
 font-weight: bold;
-color:#ef0ef7
+color:rgb(33, 241, 5);
+font-family: 'Press Start 2P', cursive;
+width:15%;
+padding:30px;
 
 }
+button{
+  margin:10px;
+}
+.responsive-width {
+  font-size: 3vw;
+}
+.skillBtn{
+color:rgb(33, 241, 5);
+font-family: 'Press Start 2P', cursive;
+background-color:black;
+border-width:5px;
+border-color:rgb(33, 241, 5);
+border-style:ridge;
+border-radius:15px;
+}
+.skillBtn:hover{
+  color:rgb(33, 241, 5);
+  font-family: 'Press Start 2P', cursive;
+  background-color:black;
+  border-width:5px;
+  border-color:rgb(33, 241, 5);
+  border-style:ridge;
+  border-radius:15px;
+  }
+
 .projects{
   background-color:black;
-  margin:10px 70px 70px 70px;
+  margin:50px 70px 70px 70px;
   padding:5px;
   border-width:5px;
-border-color:#ef0ef7;
+border-color:#c5f70e;
 border-style:ridge;
 border-radius:15px;
 padding-bottom:40px;
   
 }
+.no-gutters>.col, .no-gutters>[class*=col-]{
+  background-color: black;
+}
+img{
+  border-radius: 50%;
+  border-style:solid;
+  border-color:#0e1ef7;
+}
 .projHead{
-  color:#ef0ef7
+  color:#0e1ef7
 }
 
 .card{
   margin-left:10px;
+  border-width:0px;
+
 }
-.small{
-  color:#ef0ef7
+.h5, h5{
+  color:#c5f70e;
+}
+.text-muted{
+  color: #0e1ef7!important;
+/* color:yellow; */
+}
+p{
+  color:#c5f70e;
+  
 }
 footer{
   border-color:black;

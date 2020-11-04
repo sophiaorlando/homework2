@@ -4,12 +4,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
   <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="stylefun.css">
+  <script src="script.js"></script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display" rel="stylesheet">
   <title>About Me</title>
 </head>
 
@@ -22,59 +32,35 @@
     <div class="container text-center">
       <h1 class="display-1 gfont">Full Stack Web Developer</h1>
       <h3 class="display-4 gfont">Greater New York Area</h3>
-      <h4 class="display-5 gfont"> if (sad() === true) {</br>
-        sad().stop();</br>
-        beAwesome();</br>
-        } </h4>
+      <h4 class="display-5 gfont"> if (overStimulated() === true) {</br>
+        overStimulated().stop();</br>
+        <a class="btn" href="index.html" role="button">beBoring();</a></br>
+        }
+      </h4>
     </div>
   </div>
   <!-- <div class="row">
       <span id="star"></span>
       <img src="https://media.giphy.com/media/dAoYmsTJgSXcb6K8rj/giphy.gif" width="480" height="148" frameBorder="0" id="over">
   </div> -->
+  <div id="board">
+    <div id="content">
+      <p id="title" class="para">EPISODE 1</p>
+      <p id="subtitle" class="para">SOPHIA ORLANDO</p>
+      <br>
+      <p class="para">Contemplating my next move post-college, I decided to deep dive into the mysterious sea of
+        coding.</p>
+      <p class="para">
+        The first time I had seen the words,
+        "Hello, World!", pop up on my computer screen, I haven't looked back.
+      </p>
+      <p class="para">
+        Take a look at my skills and some
+        of my most recent projects.
+      </p>
+    </div>
+  </div>
 
-  <!-- Change the text to your liking -->
-  <!-- <div class="row jumbotron-fluid"> -->
-    <!-- <div class="col-12"> -->
-      <div id="board">
-        <div id="content">
-          <p id="title" class="para">SOPHIA ORLANDO</p>
-          <p id="subtitle" class="para">THE PORTFOLIO</p>
-          <br>
-          <p class="para">Contemplating my next move post-college, I decided to deep dive into the mysterious sea of
-            coding.</p>
-            <p class="para">
-              The first time I had seen the words,
-              "Hello, World!", pop up on my computer screen, I haven't looked back.
-            </p>
-            <p class="para">
-              Take a look at my skills and some
-      of my most recent projects.
-            </p>
-          <!-- Add as many paragraphs as you want -->
-          <!-- And make it cheesy ! -->
-        </div>
-      </div>
-    <!-- </div> -->
-  <!-- </div> -->
-
-
-
-
-  <!-- <div class="jumbotron text-center intro"> -->
-
-    <!-- <h1 class="display-4">Hello, I'm Sophia!</h1> -->
-    <!-- <img src="https://media.giphy.com/media/dAoYmsTJgSXcb6K8rj/giphy.gif" width="480" height="148" frameBorder="0"
-      id="over"> -->
-
-    <!-- <h2 class="lead">Contemplating my next move post-college, I decided to deep dive into the mysterious sea of
-      coding. The first time I had seen the words,
-      "Hello, World!", pop up on my computer screen, I haven't looked back. Take a look at my skills and some
-      of my most recent projects.
-    </h2> -->
-    <!-- <hr class="my-4">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Print Resume</a>
-  </div> -->
   <!-- <div class="row">
                 <h2 class="col-12">Education</h2>
                 <div class="col-6">
@@ -85,121 +71,93 @@
                     <p>University of Arizona</p>
                     <p>B.A. Information Science & eSociety</p>
                 </div> -->
+
   <div class="main">
     <div class="skills">
       <h2 class="col-12 text-center display-5 headers skillsHead">Skills</h2>
-
-      <div class="col-12 text-center">
-        <ul class="list-group list-group-horizontal-xl">
-
-          <li class="list-group-item">HTML</li>
-          <li class="list-group-item">CSS</li>
-          <li class="list-group-item">Javascript</li>
-          <li class="list-group-item">jQuery</li>
-          <li class="list-group-item">Bootstrap</li>
-          <li class="list-group-item">Foundation</li>
-          <li class="list-group-item">Responsive Design</li>
-          <li class="list-group-item">Node.js</li>
-          <li class="list-group-item">AJAX</li>
-          <li class="list-group-item">ES6</li>
-      </div>
-
-      <div class="col-12 text-center">
-        <ul class="list-group list-group-horizontal-xl">
-          <li class="list-group-item">React.js</li>
-          <li class="list-group-item">SQL</li>
-          <li class="list-group-item">Express</li>
-          <li class="list-group-item">MERN Stack</li>
-          <li class="list-group-item">MongoDB</li>
-          <li class="list-group-item">Product Management</li>
-          <li class="list-group-item">PHP</li>
-          <li class="list-group-item">Github</li>
-          <li class="list-group-item">Heroku</li>
-          <li class="list-group-item">skill</li>
-      </div>
+      <div id="item"></div>
     </div>
-  </div>
 
-  <div class="projects">
+    <div class="projects">
 
-    <h2 class="col-12 text-center headers projHead">Projects</h2>
+      <h2 class="col-12 text-center headers projHead">Projects</h2>
 
-    <div class="card mb-4 w-75 mx-auto">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="./assets/NYTS.png" class="card-img" width="200" height="244" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">The New York Times Article Search</h5>
-            <p class="card-text"><small class="text-muted">jQuery <span></span> AJAX <span></span> CSS
-                <span></span> Bootstrap <span></span></small></p>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.</p>
-            <a class="btn btn-dark" href="https://github.com/sophiaorlando/New-York-Times-Article-Search"
-              target="_blank" role="button">
-              <input type="image" src="./assets/gitlogo.png" style="width:20px;height:20px;" />
-              GitHub</a>
-            <a class="btn btn-dark" href="https://sophiaorlando.github.io/New-York-Times-Article-Search/"
-              target="_blank" role="button">
-              <input type="image" src="./assets/2uparrow.png" style="width:20px;height:20px;" />
-              Preview</a>
+      <div class="card mb-4 w-75 mx-auto">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./assets/NYTS.png" class="" width="200" height="244" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">The New York Times Article Search</h5>
+              <p class="card-text"><small class="text-muted">jQuery <span></span> AJAX <span></span> CSS
+                  <span></span> Bootstrap <span></span></small></p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.</p>
+              <a class="btn btn-dark" href="https://github.com/sophiaorlando/New-York-Times-Article-Search"
+                target="_blank" role="button">
+                <input type="image" src="./assets/gitlogo.png" style="width:20px;height:20px;" />
+                GitHub</a>
+              <a class="btn btn-dark" href="https://sophiaorlando.github.io/New-York-Times-Article-Search/"
+                target="_blank" role="button">
+                <input type="image" src="./assets/2uparrow.png" style="width:20px;height:20px;" />
+                Preview</a>
 
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="card mb-4 w-75 mx-auto">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="./assets/visitorCenterImg.png" class="card-img" width="200" height="244" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Visitor Center Search in the U.S.A.</h5>
-            <p class="card-text"><small class="text-muted">Handlebars <span></span> Javascript
-                <span></span> MySQL<span></span>CSS
-                <span></span>API<span></span> </small></p>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.</p>
-            <a class="btn btn-dark" href="https://github.com/sophiaorlando/State-Visitor-Centers" target="_blank"
-              role="button">
-              <input type="image" src="./assets/gitlogo.png" style="width:20px;height:20px;" />
-              GitHub</a>
-            <a class="btn btn-dark" href="https://young-shore-67722.herokuapp.com/" target="_blank" role="button">
-              <input type="image" src="./assets/2uparrow.png" style="width:20px;height:20px;" />
-              Preview</a>
+      <div class="card mb-4 w-75 mx-auto projCard">
+        <div class=" projCard row no-gutters ">
+          <div class="col-md-4">
+            <img src="./assets/visitorCenterImg.png"class="" width="200" height="244" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Visitor Center Search in the U.S.A.</h5>
+              <p class="card-text"><small class="text-muted">Handlebars <span></span> Javascript
+                  <span></span> MySQL<span></span>CSS
+                  <span></span>API<span></span> </small></p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.</p>
+              <a class="btn btn-dark" href="https://github.com/sophiaorlando/State-Visitor-Centers" target="_blank"
+                role="button">
+                <input type="image" src="./assets/gitlogo.png" style="width:20px;height:20px;" />
+                GitHub</a>
+              <a class="btn btn-dark" href="https://young-shore-67722.herokuapp.com/" target="_blank" role="button">
+                <input type="image" src="./assets/2uparrow.png" style="width:20px;height:20px;" />
+                Preview</a>
 
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="card mb-4 w-75 mx-auto">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="./assets/beachImg.png" class="card-img" width="200" height="244" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">California Coastal Beach Cleanups</h5>
-            <p class="card-text"><small class="text-muted small">Javascript <span></span><span></span>
-                MySQL<span></span> Sequilize <span></span> Moment.js<span></span>
-                <span>Node.js</span>Express<span></span> API<span></span> </small></p>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.</p>
-            <a class="btn btn-dark" href="https://github.com/sophiaorlando/Project2" target="_blank" role="button">
-              <input type="image" src="./assets/gitlogo.png" style="width:20px;height:20px;" />
-              GitHub</a>
-            <a class="btn btn-dark" href="https://thawing-temple-82462.herokuapp.com/" target="_blank" role="button">
-              <input type="image" src="./assets/2uparrow.png" style="width:20px;height:20px;" />
-              Preview</a>
+      <div class="card mb-4 w-75 mx-auto">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./assets/beachImg.png" class="" width="200" height="244" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">California Coastal Beach Cleanups</h5>
+              <p class="card-text"><small class="text-muted small">Javascript <span></span>
+                  MySQL<span></span> Sequilize <span></span> Moment.js<span></span>
+                  <span>Node.js</span>Express<span></span> API<span></span> </small></p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.</p>
+              <a class="btn btn-dark" href="https://github.com/sophiaorlando/Project2" target="_blank" role="button">
+                <input type="image" src="./assets/gitlogo.png" style="width:20px;height:20px;" />
+                GitHub</a>
+              <a class="btn btn-dark" href="https://thawing-temple-82462.herokuapp.com/" target="_blank" role="button">
+                <input type="image" src="./assets/2uparrow.png" style="width:20px;height:20px;" />
+                Preview</a>
 
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-  </div>
+    </div>
   </div>
   </div>
 
